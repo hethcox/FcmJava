@@ -14,19 +14,19 @@ import java.util.List;
  */
 public class NotificationPayloadBuilder {
 
-    private String title;
-    private String body;
-    private String icon;
-    private String sound;
-    private String badge;
-    private String tag;
-    private String color;
-    private String clickAction;
-    private String bodyLocKey;
-    private List<String> bodyLocKeyArgs;
-    private String titleLocKey;
-    private List<String> titleLocKeyArgs;
-    private String androidChannelId;
+    protected String title;
+    protected String body;
+    protected String icon;
+    protected String sound;
+    protected String badge;
+    protected String tag;
+    protected String color;
+    protected String clickAction;
+    protected String bodyLocKey;
+    protected List<String> bodyLocKeyArgs;
+    protected String titleLocKey;
+    protected List<String> titleLocKeyArgs;
+    protected String androidChannelId;
 
     public NotificationPayloadBuilder setTitle(String title) {
         this.title = title;

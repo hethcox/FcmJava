@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.bytefish.fcmjava</groupId>
+    <groupId>com.zeta5.fcmjava</groupId>
     <artifactId>fcmjava-parent</artifactId>
     <version>2.5</version>
 
@@ -68,34 +68,13 @@
         </license>
     </licenses>
 
-    <developers>
-
-        <developer>
-            <id>bytefish</id>
-            <name>Philipp Wagner</name>
-            <url>http://www.bytefish.de</url>
-            <email>bytefish@gmx.de</email>
-        </developer>
-
-        <developer>
-            <name>PSanetra</name>
-            <url>https://github.com/PSanetra</url>
-        </developer>
-
-        <developer>
-            <name>Francisco Aranda</name>
-            <url>https://github.com/culebras</url>
-            <email>fran.culebras@gmail.com</email>
-        </developer>
-
-    </developers>
-
+<!--
     <scm>
         <url>https://github.com/bytefish/FcmJava</url>
         <connection>scm:git:git://github.com/bytefish/FcmJava.git</connection>
         <developerConnection>scm:git:git@github.com:bytefish/FcmJava.git</developerConnection>
     </scm>
-
+ -->
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
